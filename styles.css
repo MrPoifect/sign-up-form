@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('fonts/Bebas-Regular.woff2') format('woff2'),
+        url('fonts/Bebas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('fonts/LeagueSpartan-Bold.woff2') format('woff2'),
+        url('fonts/LeagueSpartan-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.image-container {
+    max-width: 35%;
+    height: 100vh;
+    background-color: blue;
+}
+
+img {
+    height: 100vh;
+    object-fit: cover;
+    flex-grow: 0;
+    min-width: 35%;
+
+}
+
+.form-container {
+    display: flex;
+    flex: 0 0 auto;
+    width: 65%;
+    background-color: rgb(230, 230, 230);
+}
+
+.attribution{
+    font-family: bebas;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    bottom: 15px;
+    width: 35%;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+a {
+    font-family: bebas;
+    color: white;
+    text-wrap: wrap;
+
+}
+
+.logo-bg{
+    position: absolute;
+    top: 25%;
+    min-width: 35%;
+    max-width: 35%;
+    background-color: rgba(44, 44, 44, 0.35);
+
+}
+
+.logo {
+    color: rgb(209, 209, 209);
+    font-family: spartan;
+    text-align: center;
+    font-size: 40px;
+}

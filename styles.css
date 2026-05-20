@@ -44,6 +44,7 @@ img {
 
 .form-container {
     display: flex;
+    flex-direction: column;
     flex: 0 0 auto;
     width: 65%;
     background-color: rgb(230, 230, 230);
@@ -64,7 +65,6 @@ a {
     font-family: bebas;
     color: white;
     text-wrap: wrap;
-
 }
 
 .logo-bg{
@@ -81,4 +81,103 @@ a {
     font-family: spartan;
     text-align: center;
     font-size: 40px;
+}
+
+.description {
+    font-family: Spartan;
+    margin: 0px;
+    line-height: 1.6;
+    max-width: 500px;
+    padding: 85px 0px 25px 65px;
+    width: 100%;
+}
+
+.description-header {
+    margin: 0px;
+}
+
+.description-text {
+    margin: 0px;
+}
+
+.action-text, .sub-action-text {
+    font-family: Spartan;
+}
+
+.sub-action-text {
+    font-size: 12px;
+    color: #5a5a5a;
+}
+
+.form-row,.form-row-main {
+    font-family: bebas;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.fields-container {
+    background-color: #FFFFFF;
+    padding: 15px 0px 0px 65px;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(172, 172, 172); 
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 3px;
+    padding: 2px 2px 2px 4px;
+}
+
+label {
+    font-size: 16px;
+}
+
+label,input {
+    display: flex;
+    flex-direction: row;
+    color: #2b2b2b;
+}
+
+.input-group {
+    margin-right: 65px;
+}
+
+input:focus {
+    border-color: rgb(0, 68, 255);
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+.red {
+    color: red;
+}
+
+.button-section {
+    padding: 35px 0px;
+}
+
+button {
+    padding: 8px 30px;
+    font-family: Spartan;
+    color: rgb(231, 231, 231);
+    background-color: rgb(13, 43, 34);
+    border-width: 0px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgb(172, 172, 172); 
+}
+
+.login {
+    color: rgb(13, 43, 34);
+    font-family: Spartan;
+}
+
+.login-text {
+    font-family: Spartan;
+    padding: 30px 0px 0px 65px;
+
 }
